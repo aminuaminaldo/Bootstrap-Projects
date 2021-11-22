@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <!-- Option 1: Bootstrap icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+    <!-- map -->
+    <link href='https://api.mapbox.com/mapbox-gl-js/v2.3.1/mapbox-gl.css' rel='stylesheet' />
+    <link rel="stylesheet" href="style.css">
+    <title>Bootstrap</title>
+</head>
+<body>
+    <!-- navbar section -->
+    <nav class="navbar navbar-expand-lg bg-dark navbar-dark py-3 fixed-top">
+        <div class="container">
+            <a href="" class="navbar-brand">BlackIce</a>
+            <button class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navmenu"
+            ><span class="navbar-toggler-icon"></span></button>
+            <div class="collapse navbar-collapse" id="navmenu">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a href="#learn" class="nav-link">Learn</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#questions" class="nav-link">FAQ</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#platforms" class="nav-link">Platform</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#instructors" class="nav-link">Instructors</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- showcase section -->
+    <section class="bg-dark text-light p-5 p-lg-2 pt-lg-5 text-center text-sm-start">
+        <div class="container">
+            <div class="d-sm-flex align-items-center justify-content-between">
+                <div>
+                    <h1>Become a <span class="text-warning">
+                        FullStack Developer.  
+                    </span></h1>
+                    <p class="lead my-4">
+                        I'm a FullStack Developer, that I can do both FrontEnd and the BackEnd that will create a complete Website.
+                        This websites include static and dynamic.    
+                    </p>
+                    <button class="btn btn-primary btn-lg my-2" data-bs-toggle="modal" data-bs-target="#enroll" >Join Us</button>
+                </div>
+                <img class="img-fluid w-50 d-none d-sm-block" src="img/designer.svg" alt="">
+            </div>
+        </div>
+    </section>
+    <!-- Newsletter -->
+    <section class="bg-primary text-light p-5">
+        <div class="container">
+            <div class="d-md-flex align-items-center justify-content-between">
+                <h3 class="mb-3 mb-md-0">
+                    SignUp For Our Newsletter.
+                </h3>
+                <div class="input-group mb-3 news-input">
+                    <input type="text" class="form-control" placeholder="Enter Email" aria-label="Recipient's username" aria-describedby="button-addon2">
+                    <button class="btn btn-dark btn-lg" type="button" id="button-addon2">Submit</button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Boxes -->
+    <section class="p-5" id="platforms">
+        <div class="container">
+            <div class="row text-center g-4">
+                <div class="col-md">
+                    <div class="card bg-dark text-light">
+                        <div class="card-body text-center">
+                            <div class="h1 mb-3">
+                                <i class="bi bi-laptop"></i>  
+                            </div>
+                            <h3 class="card-title mb-3">FrontEnd</h3>
+                            <p class="card-text">
+                                Front end development is programming which focuses on the visual elements of a website or app that a user will interact with (the client side).
+                            </p>
+                            <a href="https://frontendmasters.com/" class="btn btn-primary">Read More</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md">
+                    <div class="card bg-secondary text-light">
+                        <div class="card-body text-center">
+                            <div class="h1 mb-3">
+                                <i class="bi bi-laptop"></i>  
+                            </div>
+                            <h3 class="card-title mb-3">BackEnd</h3>
+                            <p class="card-text">
+                                Back end development focuses on the side of a website users can't see (the server side).</p>
+                            <a href="https://www.guru99.com/what-is-backend-developer.html" class="btn btn-dark">Read More</a>
+                        </div>
+                    </div>
+            </div>
+        </div>
+    </section>
+    <!-- Learn Section -->
+    <section class="p-5" id="learn">
+        <div class="container">
+            <div class="row align-items-center justify-cotent-between">
+                <div class="col-md">
+                    <img src="img/book lover.svg" alt="" class="img-fluid w-50">
+                </div>
+                <div class="col-md p-5">
+                    <h2>Learn the Fundamentals</h2>
+                    <p class="lead">
+                        This program will advance your career as a MEAN stack developer. You’ll learn top skills such as MongoDB, Express.js, Angular, and Node.js (“MEAN”), plus GIT, HTML, CSS, and JavaScript to build and deploy interactive applications and services throughout this Full Stack MEAN Developer program.
+                    </p>
+                    <a href="https://www.guru99.com/what-is-backend-developer.html" class="btn btn-dark my-4">Read More</a>
+
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="p-5 bg-dark text-light" id="learn">
+        <div class="container">
+            <div class="row align-items-center justify-cotent-between">
+                <div class="col-md p-5">
+                    <h2>Benefits</h2>
+                    <p class="lead">
+                        By the end of our course you will be a full stack developer and have the basic understand of many frameworks!</p>
+                </div>
+                <div class="col-md">
+                    <img src="img/pair programming.svg" alt="" class="img-fluid w-50">
+                </div>
+                <a href="https://www.udemy.com/course/full-stack-web-development-bootcamp-for-beginners-2019/?utm_source=adwords&utm_medium=udemyads&utm_campaign=LongTail_la.EN_cc.ROW&utm_content=deal4584&utm_term=_._ag_77879424134_._ad_535397245863_._kw__._de_c_._dm__._pl__._ti_dsa-1007766171312_._li_1011785_._pd__._&matchtype=b&gclid=Cj0KCQiA-eeMBhCpARIsAAZfxZDMX_mTPOO17BBzCEbhfEufhr_OO8Wree9OzlFALmERi5JjdTod4PsaAlQOEALw_wcB" class="btn btn-primary my-4">Udemy Courses</a>
+            </div>
+        </div>
+    </section>
+    <!-- FAQ by Accordion -->
+    <section class="p-5" id="questions">
+        <div class="container">
+            <h1 class="text-center mb-3">
+                Frequently Asked Questions.
+            </h1>
+            <div class="accordion accordion-flush" id="accordionFlushExample">
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="flush-headingOne">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                        Do full stack developers need to know CSS?
+                    </button>
+                  </h2>
+                  <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body">You can find a job as a Full Stack Web Developer or Full Stack JavaScript Developer by just specializing in JavaScript.</div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="flush-headingTwo">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                        What did you do as a full stack developer?
+                    </button>
+                  </h2>
+                  <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body">A Full Stack Developer is someone who works with the Back End — or server side — of the application as well as the Front End, or client side. </div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="flush-headingThree">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                        Is Full stack development tough?
+                    </button>
+                  </h2>
+                  <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body">The path to becoming a full stack developer will take time. It's not only about learning various front-end and backend technologies.</div>
+                  </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Instructors -->
+    <section id="instructors" class="p-5 bg-primary">
+        <div class="container">
+            <h1 class="text-center text-white">
+                Our Instructors
+            </h1>
+            <p class="text-center text-white lead mb-5">
+                Our instructors all have 5+ years of working as a FullStack developer in the industry.
+            </p>
+            <div class="row g-4">
+                <div class="col-md-6 col-lg-3">
+                    <div class="card bg-light">
+                        <div class="card-body text-center">
+                            <img src="https://randomuser.me/api/portraits/women/2.jpg" alt="" class="rounded-circle mb-3">
+                            <h3 class="card-title text-center mb-2">Suzuka</h3>
+                            <p class="card-text">
+                                I have very good and easy ways that you can learn fullstack development.with 7+ years of work experience.
+                            </p>
+                            <a href="#" class=""><i class="bi bi-instagram text-dark mx-1"></i></a>
+                            <a href="#" class=""><i class="bi bi-twitter text-dark mx-1"></i></a>
+                            <a href="#" class=""><i class="bi bi-linkedin text-dark mx-1"></i></a>
+                            <a href="#" class=""><i class="bi bi-facebook text-dark mx-1"></i></a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-lg-3">
+                    <div class="card bg-light">
+                        <div class="card-body text-center">
+                            <img src="https://randomuser.me/api/portraits/men/2.jpg" alt="" class="rounded-circle mb-3">
+                            <h3 class="card-title text-center mb-2">Jack Sparrow</h3>
+                            <p class="card-text">
+                                I have very good and easy ways that you can learn fullstack development.with 7+ years of work experience.
+                            </p>
+                            <a href="#" class=""><i class="bi bi-instagram text-dark mx-1"></i></a>
+                            <a href="#" class=""><i class="bi bi-twitter text-dark mx-1"></i></a>
+                            <a href="#" class=""><i class="bi bi-linkedin text-dark mx-1"></i></a>
+                            <a href="#" class=""><i class="bi bi-facebook text-dark mx-1"></i></a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-lg-3">
+                    <div class="card bg-light">
+                        <div class="card-body text-center">
+                            <img src="https://randomuser.me/api/portraits/women/3.jpg" alt="" class="rounded-circle mb-3">
+                            <h3 class="card-title text-center mb-2">Alice</h3>
+                            <p class="card-text">
+                                I have very good and easy ways that you can learn fullstack development.with 7+ years of work experience.
+                            </p>
+                            <a href="#" class=""><i class="bi bi-instagram text-dark mx-1"></i></a>
+                            <a href="#" class=""><i class="bi bi-twitter text-dark mx-1"></i></a>
+                            <a href="#" class=""><i class="bi bi-linkedin text-dark mx-1"></i></a>
+                            <a href="#" class=""><i class="bi bi-facebook text-dark mx-1"></i></a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-lg-3">
+                    <div class="card bg-light">
+                        <div class="card-body text-center">
+                            <img src="https://randomuser.me/api/portraits/men/4.jpg" alt="" class="rounded-circle mb-3">
+                            <h3 class="card-title text-center mb-2">Harry Potter</h3>
+                            <p class="card-text">
+                                I have very good and easy ways that you can learn fullstack development.with 7+ years of work experience.
+                            </p>
+                            <a href="#" class=""><i class="bi bi-instagram text-dark mx-1"></i></a>
+                            <a href="#" class=""><i class="bi bi-twitter text-dark mx-1"></i></a>
+                            <a href="#" class=""><i class="bi bi-linkedin text-dark mx-1"></i></a>
+                            <a href="#" class=""><i class="bi bi-facebook text-dark mx-1"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Contact Details -->
+    <section class="p-5">
+        <div class="container">
+            <div class="row g-4">
+                <div class="col-md">
+                    <h2 class="text-center mb-4">
+                        Contact Info.
+                    </h2>
+                    <ul class="list-group list-group-flush lead">
+                        <li class="list-group-item">
+                            <span class="fw-bold">Main Location:</span> Hawai 2nd Street 3rd Cross. Eifil Tower.
+                        </li>
+                        <li class="list-group-item">
+                            <span class="fw-bold">Email:</span> abcr@gmail.com
+                        </li>
+                        <li class="list-group-item">
+                            <span class="fw-bold">Phone:</span> +78745 7854784.
+                        </li>
+                        <li class="list-group-item">
+                            <span class="fw-bold">LandMark:</span>Sky Fall.
+                        </li>
+                    </ul>
+                </div>
+                <div class="col md">
+                    <div id="map">
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- footer section -->
+    <section class="p-5 bg-dark text-white text-center position-relative">
+        <div class="container">
+            <p class="lead">
+                Copyright &copy; 2021 BlackIce
+            </p>
+            <a href="#" class="position-absolute bottom-0 end-0 p-5">
+                <i class="bi bi-arrow-up-circle h1"></i>
+            </a>
+        </div>
+    </section>
+    <!-- Modal -->
+    <div class="modal fade" id="enroll" tabindex="-1" aria-labelledby="enrollLabel" aria-hidden="true">
+        <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+            <h5 class="modal-title" id="enrollLabel">Join Us</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <p class="lead">
+                    Fill out this form and we will get back to you.
+                </p>
+                <form>
+                    <div class="mb-3">
+                        <label for="first-name" class="col-form-label">
+                            First Name:
+                        </label>
+                        <input type="text" class="form-control" id="first-name">
+                    </div>
+                    <div class="mb-3">
+                        <label for="last-name" class="col-form-label">
+                            Last Name:
+                        </label>
+                        <input type="text" class="form-control" id="last-name">
+                    </div>
+                    <div class="mb-3">
+                        <label for="email" class="col-form-label">
+                            Email:
+                        </label>
+                        <input type="email" class="form-control" id="email">
+                    </div>
+                    <div class="mb-3">
+                        <label for="phone" class="col-form-label">
+                            Phone:
+                        </label>
+                        <input type="tel" class="form-control" id="phone">
+                    </div>
+                </form>
+            </div>
+            <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+            <button type="button" class="btn btn-primary">Submit</button>
+            </div>
+        </div>
+        </div>
+    </div>
+    <!-- End of body -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    <script src='https://api.mapbox.com/mapbox-gl-js/v2.3.1/mapbox-gl.js'></script>
+    <script>
+        mapboxgl.accessToken = 'pk.eyJ1IjoiYW1pbnVhc2hyYWYiLCJhIjoiY2t3OWZoM3A5MmMwZjJ2cDZuMDB3OGZmcyJ9.v8Gg49AwjPXTQtvv2j5Y4g';
+        var map = new mapboxgl.Map({
+        container: 'map',
+        style: 'mapbox://styles/mapbox/streets-v11',
+        center:[78.9629, 51.5310],
+        zoom:5
+        });
+    </script>
+</body>
+</html>
